@@ -5,3 +5,6 @@ class Test {
 }
 
 new Test();
+
+let str = 'I\'m eating';
+console.log(str.indexOf('g'));

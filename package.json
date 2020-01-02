@@ -5,6 +5,7 @@
   "main": "test.js",
   "scripts": {
     "transpile": "tsc",
+    "devwarch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kyw017763/Study_Typescript/issues"
   },
-  "homepage": "https://github.com/kyw017763/Study_Typescript#readme"
+  "homepage": "https://github.com/kyw017763/Study_Typescript#readme",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  }
 }
